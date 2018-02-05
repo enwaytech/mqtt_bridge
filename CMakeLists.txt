@@ -3,7 +3,7 @@ project(mqtt_bridge)
 
 find_package(catkin REQUIRED)
 catkin_python_setup()
-catkin_package()
+catkin_package(CATKIN_DEPENDS enway_msgs)
 
 
 install(PROGRAMS

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import rospy
 from mqtt_bridge.app import mqtt_bridge_node
-import enway_msgs.msg
+# import enway_msgs.msg
 
 try:
     mqtt_bridge_node()
