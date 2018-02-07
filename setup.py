@@ -2,7 +2,6 @@
 
 from distutils.core import setup
 from catkin_pkg.python_setup import generate_distutils_setup
-import enway_msgs.msg
 
 setup_args = generate_distutils_setup(
     packages=['mqtt_bridge'],
